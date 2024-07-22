@@ -22,7 +22,7 @@ router.register(r"acessorios", AcessorioViewSet, basename="acessorios")  # nova 
 router.register(r"categorias", CategoriaViewSet, basename="categorias")
 router.register(r"cor", CorViewSet, basename="cor")
 router.register(r"marcas", MarcaViewSet, basename="marcas")
-router.register(r"users", UserViewSet, basename="users")
+router.register(r"usuarios", UserViewSet, basename="usuarios")
 
 
 urlpatterns = [

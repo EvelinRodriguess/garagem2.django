@@ -8,5 +8,5 @@ class Cor(models.Model):
         return f"{self.nome} ({self.id})"
 
     class Meta:
-            verbose_name ="Cor"
-            verbose_name_plural ="Cores"
+        verbose_name = "Cor"
+        verbose_name_plural = "Cores"
